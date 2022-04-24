@@ -1,0 +1,17 @@
+{
+  "name": "cackle",
+  "version": "1.0.0",
+  "description": "Realtime Chat Application using Nodejs and Socket.io with Rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Abhiraj Shourya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.0"
+  }
+}
